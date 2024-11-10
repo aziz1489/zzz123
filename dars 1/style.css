@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   background-image: url(https://shibuya-bay.vercel.app/bg-1.png);
+   font-family: "Fjalla One", sans-serif;
+}
+
+
+.ddd {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 160px;
+font-size: 20px;
+
+color: #251607;
+}
+
+.head {
+   background-color: bisque;
+   height: 150px;
+   
+}
+
+.iconci {
+   width: 150px;
+   height: 180px;
+}
+.sh {
+   text-decoration: none; 
+   color: inherit; 
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}
+.SHIBYUA {
+
+   display: flex;
+color: #251607;
+align-items: center;
+justify-content: center;
+font-size: 400px;
+
+}
+.under {
+
+   display: flex;
+
+   align-items: center;
+   justify-content: center;
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+.main-png {
+ width: 90%;
+  height: 90%;
+size: 90%;
+}
+.divpng {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.mi1 {
+   position: absolute;
+   left: 100px;
+}
+.mi2 {
+   position: absolute;
+   right: 100px;
+}
+
+
+
+.wrappers {
+   margin-top: 100px;
+ .image-wrapper {
+   width: 100%;                
+   height: 300px;             
+   background-image: url('1\ carousel.png'); 
+   background-repeat: repeat-x; 
+   background-size: contain;   
+   animation: scroll 10s linear infinite; 
+}
+
+   
+.image-wrapper2 {
+   width: 100%;               
+   height: 300px;              
+   background-image: url('2\ carousel.png'); 
+   background-repeat: repeat-x;
+   background-size: contain;    
+   animation: scroll 10s linear infinite; 
+}
+@keyframes scroll {
+   from {
+       background-position: 0;
+   }
+   to {
+       background-position: -100% 0;
+   }
+}
+}@keyframes scroll {
+   from {
+       background-position:  0;
+   }
+   to {
+       background-position: -100% 0;
+   }
+}a {
+   text-decoration: none; 
+   color: inherit; 
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ gap: 160px;
+}
